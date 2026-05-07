@@ -14,3 +14,58 @@ body {
 
   color: white;
 }
+
+.hero-premium {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.62), rgba(0,0,0,0.82)),
+    url('assets/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 120px 8%;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 760px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-tagline {
+  color: #f7dc8c;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.hero-content h1 {
+  font-size: clamp(42px, 7vw, 86px);
+  line-height: 1;
+  margin-bottom: 22px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #ddd;
+  max-width: 650px;
+  margin-bottom: 34px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  border: 1px solid #cba24e;
+  color: #f7dc8c;
+  padding: 12px 24px;
+  border-radius: 999px;
+}
